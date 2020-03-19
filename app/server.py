@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/file/d/1n5r2QjtiWWe1FdPNJolD3gqP8ZhgGMeY/view?usp=sharing'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1n5r2QjtiWWe1FdPNJolD3gqP8ZhgGMeY'
 export_file_name = 'export.pkl'
 
 classes = ['americano', 'latte']
